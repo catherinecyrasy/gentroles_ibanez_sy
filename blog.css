@@ -1,0 +1,116 @@
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background-color:#9eb2a6 ;
+}
+
+::-webkit-scrollbar-thumb {
+background-color:#569691 ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color:#afccd0;
+}
+
+body{
+		background-image: url(TUPV/beach.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+
+#content {
+	background-color:#afccd0;
+	color: #075173;
+	font-family: helvetica;
+	width: 80%;
+	height: inherit;
+	margin-left: 9.5%;
+	padding: 10px 10px 10px 10px;
+}
+
+.home-icon {
+	background-color:#568189;
+	height: 80px;
+	margin-top: 37%;
+	margin-left: 91%;
+	position: fixed;
+	width: 80px;
+	border-radius: 60px;
+}
+
+.home-icon:hover {
+	box-shadow: 1px 1px 10px #e1af85;
+}
+
+.blog{
+	background-color:#a4b4c4;
+	height: 80px;
+	margin-top: 37%;
+	margin-left: 2%;
+	position: fixed;
+	width: 80px;
+	border-radius: 60px;
+}
+
+.blog:hover {
+	box-shadow: 1px 1px 10px #e1af85;
+}
+
+.april-info h1{
+	font-size: 55px;
+	font-family: lucida handwriting;
+}
+
+video{
+	margin-top: 20px;
+	margin-left: 25%;
+	border-radius: 20px;
+	height: 50%;
+	width: 50%;
+}
+img{
+	margin-top: 20px;
+	margin-left: 25%;
+	border-radius: 20px;
+	height: 50%;
+	width: 50%;
+}
+
+/*COMMENT*/
+#inputcomment {
+	width: 800px;
+	margin-left: 260px;
+	margin-top: 30px;
+}
+#commentsection h4 {
+	font-family: century gothic;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#textarea {
+	resize: none;
+	margin-left: -80px;
+	width: 700px;
+	height: 130px;
+	padding: 5px;
+
+}
+#commentbutton {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	background-color: #569691;
+	font-family: century gothic;
+	margin-top: 10px;
+	margin-left: 710px; 
+	color: white;
+	outline: none;
+}
+#commentbutton:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 3px #e3e3e3;
+}

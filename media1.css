@@ -1,0 +1,93 @@
+
+	::-webkit-scrollbar {
+  	width: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+  	background-color: grey ;
+	}
+
+	::-webkit-scrollbar-thumb {
+	background-color:rgb(235,164,21) ;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+  	background-color: rgb(255,255,153);
+	}
+
+	body{
+		background-image: url(TUPV/bcg2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	
+	}
+
+	#div1{
+		height: 85px;
+		width: 96%;
+		background-color:BLUE;
+		position: fixed;
+		right:2%;
+		left: 2%;
+	} 
+
+	.p1{
+		font-size: 40px;
+		font-family: lucida handwriting;
+		padding-top: 20px;
+		margin-top: -75px;
+		nargin-right: 65px;
+		color:#20948b;
+	}
+
+	li {
+		display: inline;
+	}
+
+	#una li a{
+		color:#20948b;
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+
+	#duwa {
+		margin-top: -107px;
+	}
+
+	#duwa li a{
+		color:#20948b;
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 4px;
+	}
+	
+	li a:hover {
+		background-color:#f4cc70;
+		cursor: pointer;
+	}
+	.div4{
+		height: auto;
+		width: 70%;
+		font-family: Century Gothic;
+		font-size: 30px;
+		text-align: center;
+		padding: 10px;
+		margin-left: 15%;
+		margin-top: 100px;
+		opacity:1;
+	}
+	.div4 h1, .div4 h2 {
+		color:#075f73;
+	}

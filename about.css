@@ -1,0 +1,90 @@
+	::-webkit-scrollbar {
+  	width: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+  	background-color:#9eb2a6 ;
+	}
+
+	::-webkit-scrollbar-thumb {
+	background-color:#569691 ;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+  	background-color: #f8e473;
+	}
+
+	body{
+		background-image: url(TUPV/bcg4.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	
+	}
+
+	.p1{
+		font-size: 40px;
+		font-family: lucida handwriting;
+		padding-top: 20px;
+		margin-top: -75px;
+		nargin-right: 65px;
+		color: #20948b;
+	}
+
+	li {
+		display: inline;
+	}
+
+	#una li a{
+		color: #20948b;
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+
+	#duwa {
+		margin-top: -107px;
+	}
+
+	#duwa li a{
+		color:#20948b;
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		float: right;
+		margin-right: 50px;
+		margin-top: 4px;
+	}
+	
+	li a:hover {
+		background-color:#f4cc70;
+		cursor: pointer;
+	}
+ 
+	.div2{
+		width: 80%;
+		margin-top: 129px;
+		margin-left: 10%;
+	}
+
+	h1{
+		margin-top: 10%;
+		font-family:lucida handwriting;
+		color:#cc7722;
+		font-size: 35px;
+	}
+
+	.p2{
+		font-family: footlight MT light;
+		color:#4f77aa;
+		font-size: 30px;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
